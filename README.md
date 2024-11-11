@@ -69,13 +69,7 @@ When the script is run, the `Fib_GUI` class initializes a Tkinter window where u
 
 ![fib](https://github.com/user-attachments/assets/879f65f2-c9c6-46ed-b9cd-0069dc126c7d)
 
-## Contributing
 
-Feel free to fork the repository and submit pull requests. If you encounter any issues or have suggestions for improvements, please open an issue.
-
-## License
-
-This project is open-source and available under the MIT License.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -131,14 +125,69 @@ This will open the application window, displaying the label, text area, and butt
 
 ![GUI_Scrollbar](https://github.com/user-attachments/assets/36b9a61c-baf2-4407-9fb4-fc53a2659cc6)
 
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# 3. Grade Percentage Calculator
+
+This is a simple Python GUI application built with `tkinter` to calculate the percentage of marks based on the grade level. The application demonstrates the concept of polymorphism in object-oriented programming by defining different grade levels with varying numbers of subjects.
+
+## Features
+
+- **Grade Selection**: Allows users to select between Grade 1, Grade 2, and Grade 3.
+- **Subject Mark Entries**: Dynamically adjusts the number of subject entry fields based on the selected grade.
+  - Grade 1: 3 subjects
+  - Grade 2: 4 subjects
+  - Grade 3: 5 subjects
+- **Percentage Calculation**: Calculates and displays the percentage based on the entered marks for the selected grade.
+
+## Code Structure
+
+The main components of the code include:
+
+- **Grade Classes**:
+  - `Grade`: A base class with an abstract `calculate_percentage` method.
+  - `Grade1`, `Grade2`, `Grade3`: Subclasses that calculate the percentage based on the number of subjects for each grade level.
+
+- **Functions**:
+  - `update_subject_entries`: Updates the number of visible entry fields based on the selected grade.
+  - `calculate_percentage`: Gathers marks from the visible entries, calculates the percentage using the selected grade's calculation method, and displays the result.
+
+## Getting Started
+
+### Prerequisites
+
+- **Python 3.x**: Ensure Python is installed. [Download Python](https://www.python.org/downloads/)
+
+### Running the Application
+
+1. Save the code in a file named `grade_percentage_calculator.py`.
+2. Run the application with:
+
+    ```bash
+    python grade_percentage_calculator.py
+    ```
+
+This will open a window for the Grade Percentage Calculator.
+
+## Usage
+
+1. **Select Grade**: Choose a grade level from the dropdown menu.
+2. **Enter Marks**: Input the marks for each subject displayed.
+3. **Calculate Percentage**: Click "Calculate Percentage" to see the result. A message box will display the calculated percentage.
+
+## Example Screenshot
+
+![Grade](https://github.com/user-attachments/assets/a7141b9b-7705-4ddb-b70c-4fcdf3fa7718)
+
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. If you encounter any issues or have suggestions for improvements, please open an issue.
+
 ## License
 
-This project is open for educational and personal use.
-
----
-
-Feel free to modify the code and experiment with additional features!
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+This project is open-source and available under the MIT License.
 
 
 
