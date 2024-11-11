@@ -67,7 +67,7 @@ When the script is run, the `Fib_GUI` class initializes a Tkinter window where u
 
 ## Screenshots
 
-(Here you can include some screenshots of the app in action, if you wish!)
+![fib](https://github.com/user-attachments/assets/879f65f2-c9c6-46ed-b9cd-0069dc126c7d)
 
 ## Contributing
 
@@ -76,4 +76,69 @@ Feel free to fork the repository and submit pull requests. If you encounter any 
 ## License
 
 This project is open-source and available under the MIT License.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# 2. GUI Application with OOP, Scrollbar, and Multiple Buttons
+
+This project demonstrates a simple GUI application built with Python's `tkinter` library, utilizing object-oriented programming (OOP) principles. The application features a scrollable text area, a label, and multiple buttons that perform various actions.
+
+## Features
+
+- **Scrollable Text Area**: A `Text` widget that allows for scrolling through content, with an attached vertical scrollbar.
+- **Label**: A label that displays a welcome message, which can be changed using a button.
+- **Buttons**: 
+  - **Change Label**: Updates the label text.
+  - **Clear Text Area**: Clears all content in the text area.
+  - **Append Text**: Adds more text to the text area.
+
+## Code Structure
+
+- **MyApp Class**: This class defines the GUI and its interactive elements.
+  - `__init__(self, root)`: Initializes the main GUI components.
+  - `on_change_label_click(self)`: Updates the label with a new message when the "Change Label" button is clicked.
+  - `on_clear_text_click(self)`: Clears the text area.
+  - `on_append_text_click(self)`: Appends additional text to the text area.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x: Ensure that Python is installed on your system. [Download Python](https://www.python.org/downloads/)
+
+### Installation
+
+1. Clone this repository or download the `GUI_OOP_Scrollbar.py` file.
+2. Navigate to the directory containing the file.
+
+### Running the Application
+
+To run the application, use the following command in the terminal:
+
+```bash
+python GUI_OOP_Scrollbar.py
+```
+
+This will open the application window, displaying the label, text area, and buttons.
+
+## Usage
+
+- **Change Label**: Click this button to change the label text to "Label Changed!"
+- **Clear Text Area**: Click this button to clear all text in the scrollable text area.
+- **Append Text**: Click this button to add more text at the end of the text area.
+
+## Example Screenshot
+
+![GUI_Scrollbar](https://github.com/user-attachments/assets/36b9a61c-baf2-4407-9fb4-fc53a2659cc6)
+
+## License
+
+This project is open for educational and personal use.
+
+---
+
+Feel free to modify the code and experiment with additional features!
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
 
